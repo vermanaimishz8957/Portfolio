@@ -3,27 +3,24 @@
 <head>
     <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Naimish Kumar Verma - Software Engineer Portfolio showcasing web development, IoT, and full-stack projects">
+    <meta name="keywords" content="software engineer, web development, IoT, portfolio, Naimish Kumar Verma">
+    <title>Portfolio | Naimish Kumar Verma</title>
     <link rel="icon" href="https://i.ibb.co/zRsTj3p/Frame-1-37.png">
 
-
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" class="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
-
 </head> 
 
 <body>
-
     <!-------------------------- Header Area -------------------------->
     <header class="header-area">
         <div class="container">
             <div class="header">
-               
-                <a href="" class="logo">
-
-                    <img src="files/signaturecropped.png" alt="" class="signature">
+                <a href="#home" class="logo">
+                    <!-- <span class="logo-text">NKV</span> -->
                     <i class="fa fa-bolt"></i>
                 </a>
                    
@@ -38,7 +35,6 @@
                 <div class="menu_icon">
                     <i class="fa fa-bars"></i>
                 </div>
-
             </div>
         </div> 
     </header>
@@ -46,15 +42,15 @@
     <!-------------------------- Home Page -------------------------->
     <div class="FirstElement" id="home">
         <div class="profile-photo">
-            <img src="naimish.jpg" alt="Profile Picture" class="profile-img">
+            <img src="assets/images/naimish.jpg" alt="Profile Picture" class="profile-img">
         </div>
         <div class="profile-text">
-            <h5>Hi I'm </h5><br>
-            <h1>Naimish Kumar Verma </h1><br>
-            <p>Welcome to my portfolio website! I'm a passionate and aspiring software engineer with a strong desire to create innovative solutions and push the boundaries of technology.With a deep love for coding and problem-solving, I am constantly seeking opportunities to learn and grow in this ever-evolving field</p>
+            <h5>Hi I'm</h5><br>
+            <h1>Naimish Kumar Verma</h1><br>
+            <p>Welcome to my portfolio website! I'm a passionate and aspiring software engineer with a strong desire to create innovative solutions and push the boundaries of technology. With a deep love for coding and problem-solving, I am constantly seeking opportunities to learn and grow in this ever-evolving field.</p>
             
             <div class="btn-group">
-                <a href="WhatsApp Image 2024-09-22 at 09.34.02_2134aa50.pdf" class="btn  active">Download CV</a>
+                <a href="assets/NAIMISH_KUMAR_VERMA_Resume.pdf" class="btn active" download>Download CV</a>
                 <a href="mailto:naimishkumarverma0@gmail.com" class="btn">Contact</a>
             </div>
 
@@ -66,83 +62,64 @@
             </div>
         </div>
     </div>
+</style>
 
-        <!-------------------------- About Section -------------------------->
+    <!-------------------------- About Section -------------------------->
     <section class="about-area" id="about">
         <div class="container">
             <div class="about">
-                
                 <div class="about-content">
                     <h4>About Me</h4>
                     <ul>
-                      <li>Motivated and ambitious B.Tech graduate in Computer Science, passionate about leveraging technology to solve real-world problems. I am seeking opportunities in software development, data analysis, or related fields to gain hands-on experience while continuously expanding my skills and knowledge.</li>
-                    <li>I have built a solid foundation in frontend development, particularly in areas such as web development, MongoDB, Git, and GitHub.</li>
-                     <li>My expertise in these areas allows me to approach projects with confidence and deliver high-quality results. I strongly believe in the value of continuous learning and staying adaptable in the ever-evolving world of software engineering.</li>
-                    <li>I actively seek opportunities to expand my knowledge and skills, embracing new technologies and approaches. Feel free to explore my work and get in touch if you have any questions or opportunities to collaborate.</li>
-
+                        <li>Motivated and ambitious B.Tech graduate in Computer Science, passionate about leveraging technology to solve real-world problems. I am seeking opportunities in software development, data analysis, or related fields to gain hands-on experience while continuously expanding my skills and knowledge.</li>
+                        <li>I have built a solid foundation in frontend development, particularly in areas such as web development, MongoDB, Git, and GitHub.</li>
+                        <li>My expertise in these areas allows me to approach projects with confidence and deliver high-quality results. I strongly believe in the value of continuous learning and staying adaptable in the ever-evolving world of software engineering.</li>
+                        <li>I actively seek opportunities to expand my knowledge and skills, embracing new technologies and approaches. Feel free to explore my work and get in touch if you have any questions or opportunities to collaborate.</li>
                     </ul>
                 </div>
                                   
                 <div class="about-skills">
                     <ul>
-                        <li>Name : Naimish Kumar Verma</li>
-                        <!-- <li>Age:23</li>      -->
-                        <li>From : India</li>
-                        <li>Email : naimishkumarverma0@gmail.com</li>
-                        <li>Availabiltiy : Fulltime </li>
-                        <li>Experience : Fresher</li>
+                        <li>Name: Naimish Kumar Verma</li>
+                        <li>From: India</li>
+                        <li>Email: naimishkumarverma0@gmail.com</li>
+                        <li>Availability: Fulltime</li>
+                        <li>Experience: Fresher</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-------------------------- Education Section -------------------------->
     <section class="education-content" id="education">
         <div class="container">
             <div class="row">
-                <div class="education ">
+                <div class="education">
                     <h3 class="title">Education</h3>
                     <div class="row">
                         <div class="timeline-box">
                             <div class="timeline">
-
-                                <!-- Timeline-item -->
                                 <div class="timeline-item">
                                     <div class="circle-dot"></div>
-                                    <h3 class="timeline-title">
-                                        B.Tech(CSE)-7.3(CGPA)
-                                    </h3>
-                                    <h4 class="timeline-title">Babu Banarasi Das Northern India Institute Of Technology Lucknow </h4>
+                                    <h3 class="timeline-title">B.Tech (CSE) - 7.3 CGPA</h3>
+                                    <h4 class="timeline-title">Babu Banarasi Das Northern India Institute Of Technology Lucknow</h4>
                                     <h4 class="timeline-title">
                                         <i class="fa fa-calendar"></i> 2022-2025
                                     </h4>
-                                </div> 
-                                 <!-- Timeline-item -->
+                                </div>
                                 <div class="timeline-item">
                                     <div class="circle-dot"></div>
-                                    <h3 class="timeline-title">
-                                        Diploma(DPMT)-68.89%
-                                    </h3>
-                                    <h4 class="timeline-title">Central Institute of Petrochemicals Engineering and Technology </h4>
+                                    <h3 class="timeline-title">Diploma (DPMT) - 68.89%</h3>
+                                    <h4 class="timeline-title">Central Institute of Petrochemicals Engineering and Technology</h4>
                                     <h4 class="timeline-title">
                                         <i class="fa fa-calendar"></i> 2019-2021
                                     </h4>
-                                </div> 
-                                <!-- Timeline-item -->
-                                <!-- <div class="timeline-item">
-                                    <div class="circle-dot"></div>
-                                    <h3 class="timeline-title">HSC-78%</h3>
-                                    <h4 class="timeline-title">S G P I C SAADATGANJ BARABANKI </h4>
-                                    <h4 class="timeline-title">
-                                        <i class="fa fa-calendar"></i> 2016-2017
-                                    </h4>
-                                </div> -->
-                                <!-- Timeline-item -->
+                                </div>
                                 <div class="timeline-item">
                                     <div class="circle-dot"></div>
-                                    <h3 class="timeline-title">
-                                        Intermidiate-68.4%
-                                    </h3>
-                                    <h4 class="timeline-title"> Shri Krishna Gulab Dei Inter College</h4>
+                                    <h3 class="timeline-title">Intermediate - 68.4%</h3>
+                                    <h4 class="timeline-title">Shri Krishna Gulab Dei Inter College</h4>
                                     <h4 class="timeline-title">
                                         <i class="fa fa-calendar"></i> 2018-2019
                                     </h4>
@@ -155,55 +132,37 @@
         </div>
     </section>
     
-    
+    <!-------------------------- Projects Section -------------------------->
     <section class="project-content" id="projects">
         <div class="container">
             <div class="project-title">
                 <h4>My Projects</h4>
                 <div class="projects">
                     <div class="project">
-                        <!-- <i class="fa fa-coffee"></i> -->
-                          
-                                <h4> Iot Based Irrigation System</h4>
-                      
-                        
+                        <h4>IoT Based Irrigation System</h4>
+                        <p>Smart agriculture system using IoT sensors and microcontrollers to automate irrigation based on soil moisture and environmental conditions.</p>
                     </div>
-                    <!-- 2nd Project -->
-                     <div class="project">
-                        <!-- <i class="fa fa-car"></i> -->
-                
-                            <h4>Calculator Using Tinkter Library</h4>
-                       
-                    </div>
-                    <!-- 3rd Project -->
-                    <div class="project">
-                        <!-- <i class="fa fa-desktop"></i> -->
-                        
-                            <h4>Hospital Management System </h4> 
-                        
-                    </div>
-                
-                    <!-- 4th Project -->
-                    <div class="project">
-                        <!-- <i class="fa fa-laptop"></i> -->
-                        
-                            <h4>Myntra Clone</h4>
-                       
-                    </div>
-                
-                    
-                
-                  
-                
 
+                    <div class="project">
+                        <h4>Calculator Using Tkinter Library</h4>
+                        <p>A fully functional calculator application built with Python's Tkinter library featuring basic and advanced mathematical operations.</p>
+                    </div>
+
+                    <div class="project">
+                        <h4>Hospital Management System</h4>
+                        <p>Comprehensive hospital management solution for patient records, appointments, and medical staff management using modern web technologies.</p>
+                    </div>
+
+                    <div class="project">
+                        <h4>Myntra Clone</h4>
+                        <p>A responsive e-commerce website clone of Myntra built with HTML, CSS, and JavaScript featuring product listings and cart functionality.</p>
+                    </div>
                 </div>
-                
             </div>
         </div>
     </section>
 
-        <!-------------------------- Contact Me -------------------------->
-
+    <!-------------------------- Contact Section -------------------------->
     <section class="contact-content" id="contact">
         <div class="container">
             <div class="contact-title">
@@ -211,32 +170,79 @@
                 <p>Get In Touch</p>
             </div>
             <div class="contact">
-                <form action="https://api.web3forms.com/submit" method="post" name="submitToGoogleSheet">
+                <form action="https://api.web3forms.com/submit" method="post" id="contactForm">
                     <input type="hidden" name="access_key" value="af78abf1-f1ce-4e90-8200-e0c8086b4826">
                     <input type="text" name="NAME" placeholder="Name" required>
                     <input type="email" name="EMAIL" placeholder="Email" required>
-                    <input type="text" name="SUBJECT" placeholder="Subject">
-                    <textarea name="MESSAGE" placeholder="Message"></textarea>
-                    <input type="submit" value="Send Message" class="submit">
+                    <input type="text" name="SUBJECT" placeholder="Subject" required>
+                    <textarea name="MESSAGE" placeholder="Message" required></textarea>
+                    <button type="submit" class="submit">Send Message</button>
                 </form>
-                <span id="msg"></span>
+                <div id="msg"></div>
             </div>
         </div>
     </section>
 
-    
-        
-    <!-------------------------- JS -------------------------->
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-------------------------- Footer Section -------------------------->
+    <footer class="footer">
+    <small class="message">Let's create something amazing together!</small>
+    <small class="copyright">&copy; 2024 Naimish Kumar Verma. All rights reserved.</small>
+</footer>
+
+<style>
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.project {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project h4 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.project p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .projects {
+        grid-template-columns: 1fr;
+    }
+}
+</style>    <!-------------------------- Scripts -------------------------->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="script.js"></script>
-    
-    <!-------------------------- Footer section -------------------------->
-   <footer class="footer">
-    <small class="message">Try to join our team and let's do something good together.</small>
-    <small class="copyright">&copy; Copyright@2024.Naimish Kumar Verma 😎</small>
-   </footer>
-
 </body>
 </html>
