@@ -151,7 +151,9 @@ body{
 }
 .profile-text h1{
   color: #fed700;
-  font-size: 3rem; 
+  font-size: 3rem;
+  word-break: keep-all;
+  white-space: nowrap;
 }
 .profile-text p{
   color:#e5e5e5;
@@ -589,6 +591,30 @@ body{
   .project{
     flex-basis: 100%;
     margin-bottom: 30px;
+  }
+  
+  /* Fix for name display on mobile */
+  .FirstElement {
+    padding: 20px;
+  }
+  
+  .profile-text h1 {
+    font-size: 2rem;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: visible;
+    max-width: 100%;
+    margin: 10px 0;
+  }
+  
+  .profile-text {
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 0 15px;
   }
 
 } 
