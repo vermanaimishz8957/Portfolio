@@ -1,15 +1,34 @@
 $(document).ready(function() {
+    // Mobile menu toggle
+    $('.menu_icon').click(function() {
+        $('.navbar').toggleClass('active');
+        $(this).find('i').toggleClass('fa-bars fa-times');
+    });
+
+    // Close mobile menu when clicking outside
+    $(document).click(function(event) {
+        if (!$(event.target).closest('.menu_icon, .navbar').length) {
+            $('.navbar').removeClass('active');
+            $('.menu_icon i').removeClass('fa-times').addClass('fa-bars');
+        }
+    });
+
+    // Close mobile menu when clicking a link
+    $('.navbar li a').click(function() {
+        $('.navbar').removeClass('active');
+        $('.menu_icon i').removeClass('fa-times').addClass('fa-bars');
+    });
 
     //sticky header
     $(window).scroll(function() {
-      if ($(this).scrollTop() > 1) {
-        $(".header-area").addClass("sticky");
-      } else {
-        $(".header-area").removeClass("sticky");
-      }
-  
-      // Update the active section in the header
-      updateActiveSection();
+        if ($(this).scrollTop() > 1) {
+            $(".header-area").addClass("sticky");
+        } else {
+            $(".header-area").removeClass("sticky");
+        }
+    
+        // Update the active section in the header
+        updateActiveSection();
     });
   
     $(".header ul li a").click(function(e) {
